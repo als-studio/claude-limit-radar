@@ -1,0 +1,22 @@
+{
+  "name": "cc-usage-limits",
+  "version": "0.1.0",
+  "description": "Пишет замер лимитов (5h/7d) после каждого хода в ~/.claude/cc-usage/limit-samples/<session>.ndjson и раз в 10 минут запускает cc_usage poll-limits",
+  "author": {
+    "name": "Anton Safin"
+  },
+  "userConfig": {
+    "cli_path": {
+      "type": "string",
+      "title": "Путь к cc_usage/cli.py",
+      "description": "Абсолютный путь к cli.py из репозитория cc-usage. Пусто — опрос лимита раз в 10 минут выключен.",
+      "default": ""
+    },
+    "python": {
+      "type": "string",
+      "title": "Интерпретатор Python",
+      "description": "Чем запускать cli.py: имя в PATH или абсолютный путь.",
+      "default": "python"
+    }
+  }
+}

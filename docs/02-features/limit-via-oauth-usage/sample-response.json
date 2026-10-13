@@ -1,0 +1,27 @@
+{
+  "_comment": "Реальный ответ GET /api/oauth/usage, аккаунт Max 5x, 2026-09-09. Суммы в spend/extra_usage обнулены намеренно. Фикстура для тестов parse_usage.",
+  "five_hour": {"utilization": 1.0, "resets_at": "2026-09-09T06:49:59.823775+00:00", "limit_dollars": null, "used_dollars": null, "remaining_dollars": null, "locked_reason": null},
+  "seven_day": {"utilization": 9.0, "resets_at": "2026-09-09T05:59:59.823797+00:00", "limit_dollars": null, "used_dollars": null, "remaining_dollars": null, "locked_reason": null},
+  "seven_day_oauth_apps": null,
+  "seven_day_opus": null,
+  "seven_day_sonnet": null,
+  "seven_day_cowork": null,
+  "seven_day_omelette": null,
+  "tangelo": null,
+  "iguana_necktie": null,
+  "omelette_promotional": null,
+  "nimbus_quill": {"utilization": 0.0, "resets_at": null, "limit_dollars": null, "used_dollars": null, "remaining_dollars": null, "locked_reason": null},
+  "cinder_cove": null,
+  "copper_kite": null,
+  "amber_ladder": null,
+  "juniper_tide": null,
+  "extra_usage": {"is_enabled": false, "monthly_limit": 0, "used_credits": 0.0, "utilization": 0.0, "currency": "GBP", "decimal_places": 2, "disabled_reason": "out_of_credits", "user_disabled": false, "spend_limit_reached": false, "credits_ever_enabled": true, "daily": null, "weekly": null},
+  "limits": [
+    {"kind": "session", "group": "session", "percent": 1, "severity": "normal", "resets_at": "2026-09-09T06:49:59.823775+00:00", "scope": null, "is_active": false},
+    {"kind": "weekly_all", "group": "weekly", "percent": 9, "severity": "normal", "resets_at": "2026-09-09T05:59:59.823797+00:00", "scope": null, "is_active": false},
+    {"kind": "weekly_scoped", "group": "weekly", "percent": 12, "severity": "normal", "resets_at": "2026-09-09T05:59:59.824002+00:00", "scope": {"model": {"id": null, "display_name": "Fable"}, "surface": null}, "is_active": true}
+  ],
+  "spend": {"used": {"amount_minor": 0, "currency": "GBP", "exponent": 2}, "limit": {"amount_minor": 0, "currency": "GBP", "exponent": 2}, "percent": 0, "severity": "normal", "enabled": false, "disabled_reason": "out_of_credits", "cap": {"money": {"amount_minor": 0, "currency": "GBP", "exponent": 2}, "credits": null}, "balance": null, "auto_reload": null, "can_purchase_credits": false, "can_toggle": false},
+  "member_dashboard_available": false,
+  "seven_day_breakdown": null
+}
